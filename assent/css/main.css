@@ -32,8 +32,8 @@ body{
     border: 1px solid rgb(21, 255, 0);
 }
 .logo{
-    padding: 30px 0px 30px 30px;
-    width: 40%;
+    padding: 28px 0px 28px 30px;
+    width: 35%;
     border: 1px solid rgb(0, 17, 255);
 }
 .mobile{
@@ -44,21 +44,21 @@ body{
     border: 1px solid rgb(200, 255, 0);
 }
 .card-title{
-    font-size: 50px;
+    font-size: 40px;
     text-transform: uppercase;
     letter-spacing: 10px;
     color: var(--Dark-Grayish-Red);
-    margin: 60px 0px auto;
-    border: 1px solid rgb(9, 255, 0);
+    margin: 65px 0px auto;
+    border: 1px solid rgb(255, 0, 0);
 }
 .card-title span{
     font-weight: 100;
     color: var(--Desaturated-Red);
-    font-size: 45px;
     border: 1px solid rgb(212, 0, 255);
 }
 .card-info{
-    padding: 20px 25px;
+    margin: 0px auto;
+    padding: 15px 25px;
     line-height: 25px;
     border: 1px solid rgb(255, 0, 0);
 }
