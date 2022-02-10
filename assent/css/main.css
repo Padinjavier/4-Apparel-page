@@ -133,7 +133,7 @@ small {
 		transform: translateX(0);
 	}
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     .section {
 		width: 100%;
 	}
@@ -157,7 +157,6 @@ small {
     }
     .card-barra{
         width: 100%;
-        border:  1px solid red;
     }
 	.img-pc {
 		display: none;
