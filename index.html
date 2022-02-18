@@ -25,17 +25,21 @@
           <p class="card-info">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
   
         </div>
-        <form class="card-barra">
-          <input class="email" type="email" placeholder="Email Address">
-          <img src="./assent/images/icon-error.svg" alt="er" class="error">
-          <button>
-            <img src="./assent/images/icon-arrow.svg" alt="arrow" class="pp">
-          </button>
-          <small>Please provide a valid email</small>
+        <form action="" method="get" accept-charset="utf-8">
+          <input type="text" name="email" id="email" value="" placeholder="Email Address"/>
+          <div>
+            <img id="error-icon" src="./assent/images/icon-error.svg" alt="error-icon"
+            />
+            <button class="btn" type="submit">
+              <img src="./assent/images/icon-arrow.svg" alt="submit-arrow" />
+            </button>
+          </div>
+          <p id="error">Please provide a valid email</p>
         </form>
       </div>
     </div>
     <div class="img-pc"></div>
   </div>
 </body>
+<script src="./assent/JS/script.js"></script>
 </html>
